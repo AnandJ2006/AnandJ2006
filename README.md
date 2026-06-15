@@ -17,7 +17,7 @@
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=14&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=ANAND+J+%7C+FULLSTACK+DEV;FRONTEND+%2B+BACKEND+SPECIALIST;INSERT+COIN+TO+CONTINUE...+%F0%9F%AA%99)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=14&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=ANAND+J+%7C+FULLSTACK+DEVELOPER;FRONTEND+%2B+BACKEND+SPECIALIST;INSERT+COIN+TO+CONTINUE...+%F0%9F%AA%99)
 
 </div>
 
@@ -121,7 +121,7 @@
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/AnandJ2006/AnandJ2006/output/github-snake-dark.svg)
 
 > ⚠️ **Setup:** Go to your GitHub repo → Actions → Enable the snake workflow.
 > Add [this workflow](https://github.com/Platane/snk) to generate your snake animation.
