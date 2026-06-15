@@ -2,8 +2,8 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # runs every 12 hours
-  workflow_dispatch:           # lets you run it manually too
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -12,6 +12,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+
+    permissions:
+      contents: write
 
     steps:
       - name: generate github-contribution-grid-snake.svg
@@ -23,7 +26,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
 
       - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
